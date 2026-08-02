@@ -43,7 +43,10 @@ def run_source(
         audit.log(source_id, "monitor", "error", str(e))
         return [], str(e)
 
-    # 2 — Extract + save snapshot
+    # 2 — Load previous snapshot BEFORE saving current
+    previous = snap_mgr.load_latest(source_id)
+
+    # 3 — Extract + save current snapshot
     try:
         current = snap_mgr.extract(fetch)
         snap_mgr.save(current)
@@ -52,9 +55,6 @@ def run_source(
     except Exception as e:
         audit.log(source_id, "snapshot", "error", str(e))
         return [], str(e)
-
-    # 3 — Load previous snapshot (may be None on first run)
-    previous = snap_mgr.load_latest(source_id)
 
     # 4 — Compare
     comparison = comparator.compare(previous, current)

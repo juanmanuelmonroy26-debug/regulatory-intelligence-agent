@@ -1,0 +1,7 @@
+{
+  "source": "micrositios",
+  "exclude_norm_ids": [
+    "Resolución 000042 de 2024"
+  ],
+  "description": "Simula la entrada en vigor de la Resolución 000042 de 2024. El norm_id debe coincidir exactamente con el texto extraído del snapshot."
+}
