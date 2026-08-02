@@ -1,0 +1,10 @@
+{"run_id":"8e151851-7f78-43fe-b45c-f0d56bbed4d3","timestamp":"2026-08-02T15:44:22.542737Z","source_id":"micrositios","stage":"monitor","status":"ok","detail":"HTTP 200 — 236128 chars"}
+{"run_id":"8e151851-7f78-43fe-b45c-f0d56bbed4d3","timestamp":"2026-08-02T15:44:22.643079Z","source_id":"micrositios","stage":"snapshot","status":"ok","detail":"hash=sha256:2b5ccca7c75fbfd58ae norms=30"}
+{"run_id":"8e151851-7f78-43fe-b45c-f0d56bbed4d3","timestamp":"2026-08-02T15:44:22.643454Z","source_id":"micrositios","stage":"compare","status":"ok","detail":"hash_changed=True diffs=29 suspect=False"}
+{"run_id":"8e151851-7f78-43fe-b45c-f0d56bbed4d3","timestamp":"2026-08-02T15:44:22.645690Z","source_id":"micrositios","stage":"classify","status":"ok","detail":"29 changes classified"}
+{"run_id":"8e151851-7f78-43fe-b45c-f0d56bbed4d3","timestamp":"2026-08-02T15:50:51.824538Z","source_id":"micrositios","stage":"interpret","status":"ok","detail":"29 changes interpreted"}
+{"run_id":"8e151851-7f78-43fe-b45c-f0d56bbed4d3","timestamp":"2026-08-02T15:50:52.860248Z","source_id":"proyectos_normas","stage":"monitor","status":"ok","detail":"HTTP 200 — 97298 chars"}
+{"run_id":"8e151851-7f78-43fe-b45c-f0d56bbed4d3","timestamp":"2026-08-02T15:50:52.878134Z","source_id":"proyectos_normas","stage":"snapshot","status":"ok","detail":"hash=sha256:86e3ae0c3a475327544 norms=1"}
+{"run_id":"8e151851-7f78-43fe-b45c-f0d56bbed4d3","timestamp":"2026-08-02T15:50:52.878423Z","source_id":"proyectos_normas","stage":"compare","status":"ok","detail":"hash_changed=False diffs=0 suspect=False"}
+{"run_id":"8e151851-7f78-43fe-b45c-f0d56bbed4d3","timestamp":"2026-08-02T15:50:52.878527Z","source_id":"proyectos_normas","stage":"pipeline","status":"skipped","detail":"No changes detected"}
+{"run_id":"8e151851-7f78-43fe-b45c-f0d56bbed4d3","timestamp":"2026-08-02T15:50:53.051305Z","source_id":"micrositios","stage":"report","status":"ok","detail":"Saved: reports/reporte_dian_2026-08-02_8e151851.docx (29 changes)"}
