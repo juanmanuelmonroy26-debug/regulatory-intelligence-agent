@@ -10,6 +10,7 @@ from pydantic import BaseModel
 class SourceID(str, Enum):
     MICROSITIOS = "micrositios"
     NORMOGRAMA = "normograma"
+    PROYECTOS_NORMAS = "proyectos_normas"
 
 
 class ChangeType(str, Enum):

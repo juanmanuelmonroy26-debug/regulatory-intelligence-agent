@@ -30,7 +30,8 @@ _CHANGE_TYPE_LABELS: dict[str, str] = {
 
 _SOURCE_LABELS: dict[str, str] = {
     "micrositios": "Micrositios DIAN — Normatividad",
-    "normograma": "Normograma DIAN — Sistema de Facturación",
+    "normograma": "Normograma DIAN — Sistema de Facturación (ítem 1.6)",
+    "proyectos_normas": "DIAN — Proyectos de Normas",
 }
 
 

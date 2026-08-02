@@ -95,7 +95,7 @@ def main() -> None:
     reporter = DocumentReporter(reports_dir=config.reports_dir)
 
     is_monday = datetime.now(timezone.utc).weekday() == 0
-    sources_to_run: list[SourceID] = [SourceID.MICROSITIOS]
+    sources_to_run: list[SourceID] = [SourceID.MICROSITIOS, SourceID.PROYECTOS_NORMAS]
     if is_monday:
         sources_to_run.append(SourceID.NORMOGRAMA)
         logger.info("Monday run — normograma included")

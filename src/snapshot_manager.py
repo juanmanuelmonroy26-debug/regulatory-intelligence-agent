@@ -31,7 +31,9 @@ class SnapshotManager:
         try:
             if fetch.source_id == SourceID.MICROSITIOS:
                 return self._extract_micrositios(fetch)
-            return self._extract_normograma(fetch)
+            if fetch.source_id == SourceID.NORMOGRAMA:
+                return self._extract_normograma(fetch)
+            return self._extract_proyectos_normas(fetch)
         except Exception as e:
             logger.error(f"Parse failure for {fetch.source_id}: {e}")
             return Snapshot(
@@ -119,6 +121,58 @@ class SnapshotManager:
         norms = self._extract_norms_from_tags(items)
         if not norms:
             logger.warning("No norms extracted from normograma")
+
+        raw_text_full = "\n".join(n.raw_text for n in norms)
+        return Snapshot(
+            source_id=fetch.source_id,
+            url=fetch.url,
+            snapshot_date=fetch.fetched_at,
+            content_hash=_sha256(raw_text_full),
+            norms=norms,
+            raw_text_full=raw_text_full,
+        )
+
+    def _extract_proyectos_normas(self, fetch: RawFetch) -> Snapshot:
+        soup = BeautifulSoup(fetch.html, "html.parser")
+
+        # SharePoint page — items are typically in a list view or table
+        content = (
+            soup.find("div", class_=re.compile(r"ms-listviewtable|ms-WPBody|siteContent|content"))
+            or soup.find("table", class_=re.compile(r"ms-listviewtable"))
+            or soup.find("main")
+            or soup.body
+        )
+
+        norms: list[NormItem] = []
+        seen: set[str] = set()
+
+        if content:
+            for tag in content.find_all(["tr", "li", "div", "p", "a"]):
+                text = tag.get_text(separator=" ", strip=True)
+                if not text or len(text) < 10:
+                    continue
+
+                # For proyectos normas, use the link text as norm_id if no pattern matches
+                link = tag.find("a", href=True) if tag.name != "a" else tag
+                link_text = link.get_text(strip=True) if link else ""
+                href = link["href"] if link and link.has_attr("href") else None
+
+                match = _NORM_PATTERN.search(text)
+                norm_id = match.group(0).strip() if match else (link_text[:100] if link_text else text[:100])
+
+                if not norm_id or norm_id in seen:
+                    continue
+                seen.add(norm_id)
+
+                norms.append(NormItem(
+                    norm_id=norm_id,
+                    title=text[:200],
+                    url=href,
+                    raw_text=text,
+                ))
+
+        if not norms:
+            logger.warning("No items extracted from proyectos_normas — possible DOM change")
 
         raw_text_full = "\n".join(n.raw_text for n in norms)
         return Snapshot(

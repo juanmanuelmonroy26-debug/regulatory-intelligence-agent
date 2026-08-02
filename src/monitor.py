@@ -12,7 +12,8 @@ logger = logging.getLogger(__name__)
 
 SOURCES: dict[SourceID, str] = {
     SourceID.MICROSITIOS: "https://micrositios.dian.gov.co/sistema-de-facturacion-electronica/normatividad/",
-    SourceID.NORMOGRAMA: "https://normograma.dian.gov.co/dian/compilacion/t_1_normativa_tributaria.html",
+    SourceID.NORMOGRAMA: "https://normograma.dian.gov.co/dian/compilacion/t_1_normativa_tributaria.html?q=TRIBUTARIO",
+    SourceID.PROYECTOS_NORMAS: "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
 }
 
 _HEADERS = {
