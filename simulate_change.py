@@ -25,7 +25,6 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from src.config import Config
 from src.models import Snapshot, SourceID
 from src.monitor import DIANMonitor, MonitorError
 from src.snapshot_manager import SnapshotManager, _sha256
@@ -41,13 +40,12 @@ logger = logging.getLogger(__name__)
 def build_previous_snapshot(
     source_id: SourceID,
     exclude_norm_ids: list[str],
-    config: Config,
+    snapshots_dir: Path = Path("snapshots"),
+    timeout: int = 30,
+    max_retries: int = 3,
 ) -> None:
-    monitor = DIANMonitor(
-        timeout=config.monitor_timeout_seconds,
-        max_retries=config.monitor_max_retries,
-    )
-    snap_mgr = SnapshotManager(snapshots_dir=config.snapshots_dir)
+    monitor = DIANMonitor(timeout=timeout, max_retries=max_retries)
+    snap_mgr = SnapshotManager(snapshots_dir=snapshots_dir)
 
     # 1 — Fetch real content from DIAN
     logger.info(f"Fetching real content from {source_id}...")
@@ -92,7 +90,7 @@ def build_previous_snapshot(
     )
 
     # 4 — Save clone as latest.json (the pipeline reads this as "previous")
-    latest_path = config.snapshots_dir / source_id / "latest.json"
+    latest_path = snapshots_dir / source_id / "latest.json"
     latest_path.write_text(previous_snapshot.model_dump_json(indent=2), encoding="utf-8")
     logger.info(
         f"'Previous' snapshot written to {latest_path} "
@@ -102,7 +100,7 @@ def build_previous_snapshot(
 
 
 def main() -> None:
-    load_dotenv()
+    load_dotenv(dotenv_path=".env")
     parser = argparse.ArgumentParser(description="Simulate a regulatory change for pipeline testing")
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument(
@@ -136,8 +134,7 @@ def main() -> None:
         source_id = SourceID(args.source)
         exclude_norm_ids = args.exclude
 
-    config = Config.from_env()
-    build_previous_snapshot(source_id, exclude_norm_ids, config)
+    build_previous_snapshot(source_id, exclude_norm_ids)
 
 
 if __name__ == "__main__":

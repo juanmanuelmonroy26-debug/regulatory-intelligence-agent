@@ -143,7 +143,7 @@ class DocumentReporter:
     def _write_change_section(self, doc: Document, change: "InterpretedChange") -> None:
         diff = change.classified.diff
         change_label = _CHANGE_TYPE_LABELS.get(diff.change_type, diff.change_type)
-        priority_label = change.urgency
+        priority_label = change.urgency.value
         color = _PRIORITY_COLORS.get(priority_label, RGBColor(0, 0, 0))
 
         heading = doc.add_heading(level=2)
@@ -155,10 +155,10 @@ class DocumentReporter:
         meta_table = doc.add_table(rows=4, cols=2)
         meta_table.style = "Table Grid"
         rows_data = [
-            ("Categoría funcional", change.classified.category),
+            ("Categoría funcional", change.classified.category.value),
             ("Módulo afectado", change.affected_module),
             ("Urgencia", priority_label),
-            ("Equipos impactados", ", ".join(change.classified.affected_teams)),
+            ("Equipos impactados", ", ".join(t.value for t in change.classified.affected_teams)),
         ]
         for i, (label, value) in enumerate(rows_data):
             cells = meta_table.rows[i].cells

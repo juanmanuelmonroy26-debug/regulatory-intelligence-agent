@@ -201,21 +201,35 @@ class SnapshotManager:
             text = tag.get_text(separator=" ", strip=True)
             if not text or len(text) < 10:
                 continue
-            match = _NORM_PATTERN.search(text)
-            if not match:
-                continue
-            norm_id = match.group(0).strip()
-            if norm_id in seen:
-                continue
-            seen.add(norm_id)
 
-            link = tag.find("a", href=True)
-            norms.append(NormItem(
-                norm_id=norm_id,
-                title=text[:200],
-                url=link["href"] if link else None,
-                raw_text=text,
-            ))
+            matches = list(_NORM_PATTERN.finditer(text))
+            if not matches:
+                continue
+
+            # Collect all links in this tag indexed by approximate position
+            links = tag.find_all("a", href=True)
+
+            for i, match in enumerate(matches):
+                norm_id = match.group(0).strip()
+                if norm_id in seen:
+                    continue
+                seen.add(norm_id)
+
+                # Scope raw_text from this match to just past the next norm boundary
+                # (+150 so the referenced norm name is included in the description)
+                start = match.start()
+                end = matches[i + 1].end() + 150 if i + 1 < len(matches) else min(len(text), start + 600)
+                raw_text = text[start:end].strip()
+
+                # Pick the closest link to this norm's position in the tag
+                url = links[i]["href"] if i < len(links) else (links[0]["href"] if links else None)
+
+                norms.append(NormItem(
+                    norm_id=norm_id,
+                    title=raw_text[:200],
+                    url=url,
+                    raw_text=raw_text,
+                ))
 
         return norms
 
