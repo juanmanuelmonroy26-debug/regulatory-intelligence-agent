@@ -1,0 +1,5 @@
+{"run_id":"a7e52a23-3ebb-49ba-a8c0-31566c814f3f","timestamp":"2026-08-02T02:12:01.265346Z","source_id":"micrositios","stage":"monitor","status":"ok","detail":"HTTP 200 — 236129 chars"}
+{"run_id":"a7e52a23-3ebb-49ba-a8c0-31566c814f3f","timestamp":"2026-08-02T02:12:01.362866Z","source_id":"micrositios","stage":"snapshot","status":"ok","detail":"hash=sha256:9e5cb18797ba672cf5b norms=27"}
+{"run_id":"a7e52a23-3ebb-49ba-a8c0-31566c814f3f","timestamp":"2026-08-02T02:12:01.363710Z","source_id":"micrositios","stage":"compare","status":"ok","detail":"hash_changed=False diffs=0 suspect=False"}
+{"run_id":"a7e52a23-3ebb-49ba-a8c0-31566c814f3f","timestamp":"2026-08-02T02:12:01.363833Z","source_id":"micrositios","stage":"pipeline","status":"skipped","detail":"No changes detected"}
+{"run_id":"a7e52a23-3ebb-49ba-a8c0-31566c814f3f","timestamp":"2026-08-02T02:12:01.389047Z","source_id":"micrositios","stage":"report","status":"ok","detail":"Saved: reports/reporte_dian_2026-08-02_a7e52a23.docx (0 changes)"}
