@@ -91,7 +91,7 @@ def main() -> None:
     snap_mgr = SnapshotManager(snapshots_dir=config.snapshots_dir)
     comparator = Comparator()
     classifier = ImpactClassifier()
-    interpreter = ClaudeInterpreter(api_key=config.openai_api_key, model=config.openai_model)
+    interpreter = ClaudeInterpreter(api_key=config.groq_api_key, model=config.groq_model)
     reporter = DocumentReporter(reports_dir=config.reports_dir)
 
     is_monday = datetime.now(timezone.utc).weekday() == 0

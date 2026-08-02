@@ -31,7 +31,7 @@ jobs:
 
       - name: Run regulatory pipeline
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: python pipeline.py
 
       - name: Commit and push snapshots, logs, and reports

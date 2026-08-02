@@ -53,9 +53,12 @@ Analiza el cambio y responde ÚNICAMENTE con el siguiente JSON (sin markdown, si
 _PRIORITY_MAP = {"alta": Priority.HIGH, "media": Priority.MEDIUM, "baja": Priority.LOW}
 
 
+_GROQ_BASE_URL = "https://api.groq.com/openai/v1"
+
+
 class ClaudeInterpreter:
-    def __init__(self, api_key: str, model: str = "gpt-4o") -> None:
-        self.client = openai.OpenAI(api_key=api_key)
+    def __init__(self, api_key: str, model: str = "openai/gpt-oss-20b") -> None:
+        self.client = openai.OpenAI(api_key=api_key, base_url=_GROQ_BASE_URL)
         self.model = model
 
     def interpret(self, change: ClassifiedChange) -> InterpretedChange:
