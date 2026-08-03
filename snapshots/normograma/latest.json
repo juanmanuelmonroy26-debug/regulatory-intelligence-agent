@@ -1,8 +1,111 @@
 {
   "source_id": "normograma",
-  "url": "https://normograma.dian.gov.co/dian/compilacion/t_1_normativa_tributaria.html?q=TRIBUTARIO",
-  "snapshot_date": "2026-08-03T03:33:43.675110Z",
-  "content_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "norms": [],
-  "raw_text_full": ""
+  "url": "https://normograma.dian.gov.co/dian/compilacion/t_1_normativa_tributaria_parte_06.html",
+  "snapshot_date": "2026-08-03T03:46:15.210280Z",
+  "content_hash": "sha256:d92b20ce4ac6299d95b0a4fb466d0fefa8e8b996d2434a6c0c9d021a7d91f180",
+  "norms": [
+    {
+      "norm_id": "Resolución 4285 de 2026 DIAN",
+      "title": "Resolución 4285 de 2026 DIAN Por la cual se adicionan el artículo 1.2.2.39 al Capítulo 2 del Título 2 de la Parte 1 y un nuevo formulario al numeral 1. Tabla de Formularios del artículo 3 de la Resolu",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_4285_2026.htm",
+      "raw_text": "Resolución 4285 de 2026 DIAN Por la cual se adicionan el artículo 1.2.2.39 al Capítulo 2 del Título 2 de la Parte 1 y un nuevo formulario al numeral 1. Tabla de Formularios del artículo 3 de la Resolución número 000227 del 23 de septiembre de 2025 \"Resolución Única en Materia Tributaria, Aduanera y Cambiaria\""
+    },
+    {
+      "norm_id": "Resolución 13 de 2026 DIAN",
+      "title": "Resolución 13 de 2026 DIAN Por la cual se adiciona el artículo 1.2.2.40 al Capítulo 2 del Título 2 de la Parte 1 y un nuevo formulario al numeral 1 del artículo 3 de la Resolución número 000227 del 23",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0013_2026.htm",
+      "raw_text": "Resolución 13 de 2026 DIAN Por la cual se adiciona el artículo 1.2.2.40 al Capítulo 2 del Título 2 de la Parte 1 y un nuevo formulario al numeral 1 del artículo 3 de la Resolución número 000227 del 23 de septiembre de 2025 \"Resolución Única en Materia Tributaria, Aduanera y Cambiaria\""
+    },
+    {
+      "norm_id": "Resolución 12 de 2026 DIAN",
+      "title": "Resolución 12 de 2026 DIAN Por la cual se modifica parcialmente la Resolución número 000227 del 23 de septiembre 2025, Única en Materia Tributaria, Aduanera y Cambiaria respecto a temas asociados al r",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0012_2026.htm",
+      "raw_text": "Resolución 12 de 2026 DIAN Por la cual se modifica parcialmente la Resolución número 000227 del 23 de septiembre 2025, Única en Materia Tributaria, Aduanera y Cambiaria respecto a temas asociados al reporte de información tributaria"
+    },
+    {
+      "norm_id": "Resolución 11 de 2026 DIAN",
+      "title": "Resolución 11 de 2026 DIAN Por la cual se adiciona una subsección transitoria a la Sección 5 del Capítulo 1 del Título 5 de la Parte 1 de la Resolución número 000227 de 20152025 \"Única en materia trib",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0011_2026.htm",
+      "raw_text": "Resolución 11 de 2026 DIAN Por la cual se adiciona una subsección transitoria a la Sección 5 del Capítulo 1 del Título 5 de la Parte 1 de la Resolución número 000227 de 20152025 \"Única en materia tributaria, aduanera y cambiaria\" para establecer las condiciones para la transmisión de facturas electrónicas en casos de reconocimiento voluntario del incumplimiento de la obligación formal de facturar, en desarrollo de lo dispuesto en artículo 5 del Decreto Legislativo 0240 de 2026"
+    },
+    {
+      "norm_id": "Resolución 9 de 2026 DIAN",
+      "title": "Resolución 9 de 2026 DIAN Por la cual se modifica el instructivo del Recibo Oficial de Pago Impuestos Nacionales - Formulario 490 prescrito por el artículo 1.2.2.36 y contenido en el numeral 1. Tabla ",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0009_2026.htm",
+      "raw_text": "Resolución 9 de 2026 DIAN Por la cual se modifica el instructivo del Recibo Oficial de Pago Impuestos Nacionales - Formulario 490 prescrito por el artículo 1.2.2.36 y contenido en el numeral 1. Tabla de formularios de que trata el artículo 3 de la Resolución número 000227 del 23 de septiembre de 2025 \"Resolución Única en Materia Tributaria, Aduanera y Cambiaria\""
+    },
+    {
+      "norm_id": "Resolución 8 de 2026 DIAN",
+      "title": "Resolución 8 de 2026 DIAN Por la cual se adiciona la Sección 5 \"Procedimiento para el recaudo y pago de la tarifa del 0.1porciento establecida en el artículo 21 de la Ley 2251 de 2022 sobre operacione",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0008_2026.htm",
+      "raw_text": "Resolución 8 de 2026 DIAN Por la cual se adiciona la Sección 5 \"Procedimiento para el recaudo y pago de la tarifa del 0.1porciento establecida en el artículo 21 de la Ley 2251 de 2022 sobre operaciones de transporte terrestre de carga\" al Capítulo 2 del Título 8 de la Parte 1 de la Resolución número 000227 del 23 de septiembre de 2025 \"Resolución única en Materia Tributaria, Aduanera y Cambiaria\""
+    },
+    {
+      "norm_id": "Resolución 4 de 2026 DIAN",
+      "title": "Resolución 4 de 2026 DIAN Por la cual se adiciona un numeral tercero al artículo 1.4.1.5 y se modifica el parágrafo del artículo 1.4.1.10 de la Resolución número 000227 del 23 de septiembre de 2025, R",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0004_2026.htm",
+      "raw_text": "Resolución 4 de 2026 DIAN Por la cual se adiciona un numeral tercero al artículo 1.4.1.5 y se modifica el parágrafo del artículo 1.4.1.10 de la Resolución número 000227 del 23 de septiembre de 2025, Resolución Única en Materia Tributaria, Aduanera y Cambiaria"
+    },
+    {
+      "norm_id": "Resolución 3 de 2026 DIAN",
+      "title": "Resolución 3 de 2026 DIAN Por medio de la cual se sustituyen los artículos 1.2.1.1.1. y 1.2.1.1.2. de la Sección 1 del Capítulo 1 del Título 2 de la Parte 1 de la Resolución número 227 de 2025, para a",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0003_2026.htm",
+      "raw_text": "Resolución 3 de 2026 DIAN Por medio de la cual se sustituyen los artículos 1.2.1.1.1. y 1.2.1.1.2. de la Sección 1 del Capítulo 1 del Título 2 de la Parte 1 de la Resolución número 227 de 2025, para ajustar las tarifas del Impuesto Nacional a la Gasolina y al ACPM, y del Impuesto Nacional al Carbono"
+    },
+    {
+      "norm_id": "Resolución 2 de 2026 DIAN",
+      "title": "Resolución 2 de 2026 DIAN Por medio de la cual se modifica parcialmente el \"Manual de Políticas Contables y Operativas de la Contabilidad de la Función Recaudadora\" de la Unidad Administrativa Especia",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0002_2026.htm",
+      "raw_text": "Resolución 2 de 2026 DIAN Por medio de la cual se modifica parcialmente el \"Manual de Políticas Contables y Operativas de la Contabilidad de la Función Recaudadora\" de la Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales (DIAN), adoptado mediante la Resolución número 042 del 2 de agosto de 2018"
+    },
+    {
+      "norm_id": "Resolución 247 de 2025 DIAN",
+      "title": "Resolución 247 de 2025 DIAN Por la cual se adiciona el artículo 1.2.1.1.3. al Capítulo 1 del Título 2 de la Parte 1 de la Resolución número 000227 del 23 de septiembre de 2025, Resolución Única en Mat",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0247_2025.htm",
+      "raw_text": "Resolución 247 de 2025 DIAN Por la cual se adiciona el artículo 1.2.1.1.3. al Capítulo 1 del Título 2 de la Parte 1 de la Resolución número 000227 del 23 de septiembre de 2025, Resolución Única en Materia Tributaria, Aduanera y Cambiaria"
+    },
+    {
+      "norm_id": "Resolución 246 de 2025 DIAN",
+      "title": "Resolución 246 de 2025 DIAN Por la cual se adiciona un inciso tercero al artículo 1.4.3.1. de la Resolución número 000227 de 2025, Única en Materia Tributaria, Aduanera y Cambiaria, en relación con la",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0246_2025.htm",
+      "raw_text": "Resolución 246 de 2025 DIAN Por la cual se adiciona un inciso tercero al artículo 1.4.3.1. de la Resolución número 000227 de 2025, Única en Materia Tributaria, Aduanera y Cambiaria, en relación con la determinación de nuevos contribuyentes que deben presentar el reporte de conciliación fiscal"
+    },
+    {
+      "norm_id": "Resolución 238 de 2025 DIAN",
+      "title": "Resolución 238 de 2025 DIAN Por medio de la cual, en desarrollo del artículo 868 del Estatuto Tributario, se sustituye el artículo 1.2.1 del Título 2 de la Parte 1 de la Resolución Única en Materia Tr",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0238_2025.htm",
+      "raw_text": "Resolución 238 de 2025 DIAN Por medio de la cual, en desarrollo del artículo 868 del Estatuto Tributario, se sustituye el artículo 1.2.1 del Título 2 de la Parte 1 de la Resolución Única en Materia Tributaria, Aduanera y Cambiaria de la Dirección de Impuestos y Aduanas Nacionales (DIAN), Resolución número 000227 de 2025, para fijar el valor de la Unidad de Valor Tributario (UVT) aplicable para el año 2026"
+    },
+    {
+      "norm_id": "Resolución 237 de 2025 DIAN",
+      "title": "Resolución 237 de 2025 DIAN Por la cual se corrige un error formal en la Resolución número 000233 del 30 de octubre de 2025, por la cual se modifica y adiciona parcialmente la Resolución número 000227",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0237_2025.htm",
+      "raw_text": "Resolución 237 de 2025 DIAN Por la cual se corrige un error formal en la Resolución número 000233 del 30 de octubre de 2025, por la cual se modifica y adiciona parcialmente la Resolución número 000227 de 2025, Única en Materia Tributaria, Aduanera y Cambiaria, respecto a temas asociados al reporte de información tributaria"
+    },
+    {
+      "norm_id": "Resolución 234 de 2025 DIAN",
+      "title": "Resolución 234 de 2025 DIAN Por la cual se adopta el Servicio Informático Régimen Zona Económica y Social Especial (SI ZESE) y se corrige un yerro de la Resolución número 000228 del 30 de septiembre d",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0234_2025.htm",
+      "raw_text": "Resolución 234 de 2025 DIAN Por la cual se adopta el Servicio Informático Régimen Zona Económica y Social Especial (SI ZESE) y se corrige un yerro de la Resolución número 000228 del 30 de septiembre de 2025 \"por la cual se adicionan los numerales 3.2.1. y 3.2.2. al numeral 3.2. del artículo 1.6.10.2, se modifica el numeral 1.3. del numeral 1 del artículo 1.6.10.2, el numeral 1.9 del numeral 1 del artículo 1.6.10.2, el numeral 3.2.1 al numeral 3 del artículo 1.6.10.2, el numeral 3.5. del numeral 3 del artículo 1.6.10.2, el numeral 3.1 del numeral 3 del artículo 1.6.10.3, el numeral 7.2 del numeral 7 del artículo 1.6.10.3, los numerales 1.3. y 1.3.2. del numeral 1 del artículo 1.6.10.4, y los numerales 2.2.3., 2.3.1. y 2.3.3. del numeral 2 del artículo 1.6.10.4 y se deroga el numeral 3.1.1. del numeral 3 del artículo 1.6.10.2 y el numeral 1.3 del artículo 1.6.10.3 de la Resolución número 000227 de 2025, que incorporó la Resolución número 199 de 2024, por la cual se establece para el año gravable 2025 y siguientes, el contenido, las características técnicas y los plazos para la presentación de la información que deben suministrar los Operadores de Plataformas Sujetos a Reportar a la Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales (DIAN) de conformidad con la Ley 1661 de 2013 y en cumplimiento del \"Acuerdo Multilateral de Autoridades Competentes en relación con el Intercambio Automático de Información de ingresos derivados a través de Plataformas Digitales\""
+    },
+    {
+      "norm_id": "Resolución 233 de 2025 DIAN",
+      "title": "Resolución 233 de 2025 DIAN Por la cual se modifica y adiciona parcialmente la resolución 000227 de 2025, Única en Materia Tributaria, Aduanera y Cambiaria respecto a temas asociados al reporte de inf",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0233_2025.htm",
+      "raw_text": "Resolución 233 de 2025 DIAN Por la cual se modifica y adiciona parcialmente la resolución 000227 de 2025, Única en Materia Tributaria, Aduanera y Cambiaria respecto a temas asociados al reporte de información tributaria"
+    },
+    {
+      "norm_id": "Resolución 228 de 2025 DIAN",
+      "title": "Resolución 228 de 2025 DIAN Por la cual se adicionan los numerales 3.2.1. y 3.2.2. al numeral 3.2. del artículo 1.6.10.2, se modifica el numeral 1.3. del numeral 1 del artículo 1.6.10.2, el numeral 1.",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_0228_2025.htm",
+      "raw_text": "Resolución 228 de 2025 DIAN Por la cual se adicionan los numerales 3.2.1. y 3.2.2. al numeral 3.2. del artículo 1.6.10.2, se modifica el numeral 1.3. del numeral 1 del artículo 1.6.10.2, el numeral 1.9 del numeral 1 del artículo 1.6.10.2, el numeral 3.2.1 al numeral 3 del artículo 1.6.10.2, el numeral 3.5. del numeral 3 del artículo 1.6.10.2, el numeral 3.1 del numeral 3 del artículo 1.6.10.3, el numeral 7.2 del numeral 7 del artículo 1.6.10.3, los numerales 1.3. y 1.3.2. del numeral 1 del artículo 1.6.10.4, y los numerales 2.2.3., 2.3.1. y 2.3.3. del numeral 2 del artículo 1.6.10.4 y se deroga el numeral 3.1.1. del numeral 3 del artículo 1.6.10.2 y el numeral 1.3 del artículo 1.6.10.3 de la Resolución número 000227 de 2025, que incorporó la Resolución número 199 de 2024, por la cual se establece para el año gravable 2025 y siguientes, el contenido, las características técnicas y los plazos para la presentación de la información que deben suministrar los Operadores de Plataformas Sujetos a Reportar a la Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales (DIAN) de conformidad con la Ley 1661 de 2013 y en cumplimiento del \"Acuerdo Multilateral de Autoridades Competentes en relación con el Intercambio Automático de Información de ingresos derivados a través de Plataformas Digitales"
+    },
+    {
+      "norm_id": "Resolución 227 de 2025 DIAN",
+      "title": "Resolución 227 de 2025 DIAN TEXTOS DEROGADOS",
+      "url": "https://normograma.dian.gov.co/dian/compilacion/docs/resolucion_dian_2025-textos_derogados.htm",
+      "raw_text": "Resolución 227 de 2025 DIAN TEXTOS DEROGADOS"
+    }
+  ],
+  "raw_text_full": "Resolución 4285 de 2026 DIAN Por la cual se adicionan el artículo 1.2.2.39 al Capítulo 2 del Título 2 de la Parte 1 y un nuevo formulario al numeral 1. Tabla de Formularios del artículo 3 de la Resolución número 000227 del 23 de septiembre de 2025 \"Resolución Única en Materia Tributaria, Aduanera y Cambiaria\"\nResolución 13 de 2026 DIAN Por la cual se adiciona el artículo 1.2.2.40 al Capítulo 2 del Título 2 de la Parte 1 y un nuevo formulario al numeral 1 del artículo 3 de la Resolución número 000227 del 23 de septiembre de 2025 \"Resolución Única en Materia Tributaria, Aduanera y Cambiaria\"\nResolución 12 de 2026 DIAN Por la cual se modifica parcialmente la Resolución número 000227 del 23 de septiembre 2025, Única en Materia Tributaria, Aduanera y Cambiaria respecto a temas asociados al reporte de información tributaria\nResolución 11 de 2026 DIAN Por la cual se adiciona una subsección transitoria a la Sección 5 del Capítulo 1 del Título 5 de la Parte 1 de la Resolución número 000227 de 20152025 \"Única en materia tributaria, aduanera y cambiaria\" para establecer las condiciones para la transmisión de facturas electrónicas en casos de reconocimiento voluntario del incumplimiento de la obligación formal de facturar, en desarrollo de lo dispuesto en artículo 5 del Decreto Legislativo 0240 de 2026\nResolución 9 de 2026 DIAN Por la cual se modifica el instructivo del Recibo Oficial de Pago Impuestos Nacionales - Formulario 490 prescrito por el artículo 1.2.2.36 y contenido en el numeral 1. Tabla de formularios de que trata el artículo 3 de la Resolución número 000227 del 23 de septiembre de 2025 \"Resolución Única en Materia Tributaria, Aduanera y Cambiaria\"\nResolución 8 de 2026 DIAN Por la cual se adiciona la Sección 5 \"Procedimiento para el recaudo y pago de la tarifa del 0.1porciento establecida en el artículo 21 de la Ley 2251 de 2022 sobre operaciones de transporte terrestre de carga\" al Capítulo 2 del Título 8 de la Parte 1 de la Resolución número 000227 del 23 de septiembre de 2025 \"Resolución única en Materia Tributaria, Aduanera y Cambiaria\"\nResolución 4 de 2026 DIAN Por la cual se adiciona un numeral tercero al artículo 1.4.1.5 y se modifica el parágrafo del artículo 1.4.1.10 de la Resolución número 000227 del 23 de septiembre de 2025, Resolución Única en Materia Tributaria, Aduanera y Cambiaria\nResolución 3 de 2026 DIAN Por medio de la cual se sustituyen los artículos 1.2.1.1.1. y 1.2.1.1.2. de la Sección 1 del Capítulo 1 del Título 2 de la Parte 1 de la Resolución número 227 de 2025, para ajustar las tarifas del Impuesto Nacional a la Gasolina y al ACPM, y del Impuesto Nacional al Carbono\nResolución 2 de 2026 DIAN Por medio de la cual se modifica parcialmente el \"Manual de Políticas Contables y Operativas de la Contabilidad de la Función Recaudadora\" de la Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales (DIAN), adoptado mediante la Resolución número 042 del 2 de agosto de 2018\nResolución 247 de 2025 DIAN Por la cual se adiciona el artículo 1.2.1.1.3. al Capítulo 1 del Título 2 de la Parte 1 de la Resolución número 000227 del 23 de septiembre de 2025, Resolución Única en Materia Tributaria, Aduanera y Cambiaria\nResolución 246 de 2025 DIAN Por la cual se adiciona un inciso tercero al artículo 1.4.3.1. de la Resolución número 000227 de 2025, Única en Materia Tributaria, Aduanera y Cambiaria, en relación con la determinación de nuevos contribuyentes que deben presentar el reporte de conciliación fiscal\nResolución 238 de 2025 DIAN Por medio de la cual, en desarrollo del artículo 868 del Estatuto Tributario, se sustituye el artículo 1.2.1 del Título 2 de la Parte 1 de la Resolución Única en Materia Tributaria, Aduanera y Cambiaria de la Dirección de Impuestos y Aduanas Nacionales (DIAN), Resolución número 000227 de 2025, para fijar el valor de la Unidad de Valor Tributario (UVT) aplicable para el año 2026\nResolución 237 de 2025 DIAN Por la cual se corrige un error formal en la Resolución número 000233 del 30 de octubre de 2025, por la cual se modifica y adiciona parcialmente la Resolución número 000227 de 2025, Única en Materia Tributaria, Aduanera y Cambiaria, respecto a temas asociados al reporte de información tributaria\nResolución 234 de 2025 DIAN Por la cual se adopta el Servicio Informático Régimen Zona Económica y Social Especial (SI ZESE) y se corrige un yerro de la Resolución número 000228 del 30 de septiembre de 2025 \"por la cual se adicionan los numerales 3.2.1. y 3.2.2. al numeral 3.2. del artículo 1.6.10.2, se modifica el numeral 1.3. del numeral 1 del artículo 1.6.10.2, el numeral 1.9 del numeral 1 del artículo 1.6.10.2, el numeral 3.2.1 al numeral 3 del artículo 1.6.10.2, el numeral 3.5. del numeral 3 del artículo 1.6.10.2, el numeral 3.1 del numeral 3 del artículo 1.6.10.3, el numeral 7.2 del numeral 7 del artículo 1.6.10.3, los numerales 1.3. y 1.3.2. del numeral 1 del artículo 1.6.10.4, y los numerales 2.2.3., 2.3.1. y 2.3.3. del numeral 2 del artículo 1.6.10.4 y se deroga el numeral 3.1.1. del numeral 3 del artículo 1.6.10.2 y el numeral 1.3 del artículo 1.6.10.3 de la Resolución número 000227 de 2025, que incorporó la Resolución número 199 de 2024, por la cual se establece para el año gravable 2025 y siguientes, el contenido, las características técnicas y los plazos para la presentación de la información que deben suministrar los Operadores de Plataformas Sujetos a Reportar a la Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales (DIAN) de conformidad con la Ley 1661 de 2013 y en cumplimiento del \"Acuerdo Multilateral de Autoridades Competentes en relación con el Intercambio Automático de Información de ingresos derivados a través de Plataformas Digitales\"\nResolución 233 de 2025 DIAN Por la cual se modifica y adiciona parcialmente la resolución 000227 de 2025, Única en Materia Tributaria, Aduanera y Cambiaria respecto a temas asociados al reporte de información tributaria\nResolución 228 de 2025 DIAN Por la cual se adicionan los numerales 3.2.1. y 3.2.2. al numeral 3.2. del artículo 1.6.10.2, se modifica el numeral 1.3. del numeral 1 del artículo 1.6.10.2, el numeral 1.9 del numeral 1 del artículo 1.6.10.2, el numeral 3.2.1 al numeral 3 del artículo 1.6.10.2, el numeral 3.5. del numeral 3 del artículo 1.6.10.2, el numeral 3.1 del numeral 3 del artículo 1.6.10.3, el numeral 7.2 del numeral 7 del artículo 1.6.10.3, los numerales 1.3. y 1.3.2. del numeral 1 del artículo 1.6.10.4, y los numerales 2.2.3., 2.3.1. y 2.3.3. del numeral 2 del artículo 1.6.10.4 y se deroga el numeral 3.1.1. del numeral 3 del artículo 1.6.10.2 y el numeral 1.3 del artículo 1.6.10.3 de la Resolución número 000227 de 2025, que incorporó la Resolución número 199 de 2024, por la cual se establece para el año gravable 2025 y siguientes, el contenido, las características técnicas y los plazos para la presentación de la información que deben suministrar los Operadores de Plataformas Sujetos a Reportar a la Unidad Administrativa Especial Dirección de Impuestos y Aduanas Nacionales (DIAN) de conformidad con la Ley 1661 de 2013 y en cumplimiento del \"Acuerdo Multilateral de Autoridades Competentes en relación con el Intercambio Automático de Información de ingresos derivados a través de Plataformas Digitales\nResolución 227 de 2025 DIAN TEXTOS DEROGADOS"
 }
