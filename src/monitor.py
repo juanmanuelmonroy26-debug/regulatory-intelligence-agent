@@ -11,9 +11,8 @@ from src.models import RawFetch, SourceID
 logger = logging.getLogger(__name__)
 
 SOURCES: dict[SourceID, str] = {
-    SourceID.MICROSITIOS: "https://micrositios.dian.gov.co/sistema-de-facturacion-electronica/normatividad/",
-    SourceID.NORMOGRAMA: "https://normograma.dian.gov.co/dian/compilacion/t_1_normativa_tributaria.html?q=TRIBUTARIO",
-    SourceID.PROYECTOS_NORMAS: "https://www.dian.gov.co/normatividad/Paginas/ProyectosNormas.aspx",
+    # Sección 1.6 de la compilación tributaria — cargada directamente sin JS
+    SourceID.NORMOGRAMA: "https://normograma.dian.gov.co/dian/compilacion/t_1_normativa_tributaria_parte_06.html",
 }
 
 _HEADERS = {

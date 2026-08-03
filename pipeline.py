@@ -94,11 +94,7 @@ def main() -> None:
     interpreter = ClaudeInterpreter(api_key=config.groq_api_key, model=config.groq_model)
     reporter = DocumentReporter(reports_dir=config.reports_dir)
 
-    is_monday = datetime.now(timezone.utc).weekday() == 0
-    sources_to_run: list[SourceID] = [SourceID.MICROSITIOS, SourceID.PROYECTOS_NORMAS]
-    if is_monday:
-        sources_to_run.append(SourceID.NORMOGRAMA)
-        logger.info("Monday run — normograma included")
+    sources_to_run: list[SourceID] = [SourceID.NORMOGRAMA]
 
     all_changes: list[InterpretedChange] = []
     error_sources: dict[str, str] = {}

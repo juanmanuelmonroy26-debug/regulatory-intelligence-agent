@@ -5,6 +5,7 @@ import logging
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup, Tag
 
@@ -99,28 +100,35 @@ class SnapshotManager:
 
     def _extract_normograma(self, fetch: RawFetch) -> Snapshot:
         soup = BeautifulSoup(fetch.html, "html.parser")
+        norms: list[NormItem] = []
+        seen: set[str] = set()
 
-        target_header: Tag | None = None
-        for tag in soup.find_all(["h1", "h2", "h3", "h4", "strong", "b", "span", "p"]):
-            text = tag.get_text(strip=True).lower()
-            if "facturación" in text or "facturacion" in text:
-                if any(w in text for w in ("sistema", "electrónica", "electronica")):
-                    target_header = tag
-                    break
+        for li in soup.find_all("li", class_="documento-arbol"):
+            id_span = li.find("span", class_="id-documento")
+            if not id_span:
+                continue
+            norm_id = id_span.get_text(strip=True)
+            if not norm_id or norm_id in seen:
+                continue
+            seen.add(norm_id)
 
-        items: list[Tag] = []
-        if target_header:
-            for sibling in target_header.find_next_siblings():
-                if sibling.name in ("h1", "h2", "h3", "h4"):
-                    break
-                items.append(sibling)
-        else:
-            logger.warning("'Sistema de Facturación' heading not found in normograma — scanning full page")
-            items = list(soup.find_all(["li", "p", "tr"]))
+            description_p = li.find("p")
+            description = description_p.get_text(strip=True) if description_p else ""
+            raw_text = f"{norm_id} {description}".strip()
 
-        norms = self._extract_norms_from_tags(items)
+            link = li.find("a", href=True)
+            href = link["href"] if link else None
+            url = urljoin(fetch.url, href) if href else None
+
+            norms.append(NormItem(
+                norm_id=norm_id,
+                title=raw_text[:200],
+                url=url,
+                raw_text=raw_text,
+            ))
+
         if not norms:
-            logger.warning("No norms extracted from normograma")
+            logger.warning("No norms extracted from normograma parte_06 — possible DOM change")
 
         raw_text_full = "\n".join(n.raw_text for n in norms)
         return Snapshot(

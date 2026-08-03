@@ -1,0 +1,51 @@
+name: Simulate Regulatory Change (Demo)
+
+on:
+  workflow_dispatch:
+    inputs:
+      norm_to_exclude:
+        description: 'Norm ID to simulate as "newly added" (excluded from the before-state)'
+        required: true
+        default: 'Resolución 4285 de 2026 DIAN'
+
+permissions:
+  contents: write
+
+jobs:
+  simulate-and-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build "before" snapshot (simulate norm as not yet existing)
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python simulate_change.py --source normograma --exclude "${{ github.event.inputs.norm_to_exclude }}"
+
+      - name: Run full pipeline (detect, interpret, report)
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: python pipeline.py
+
+      - name: Commit and push results
+        run: |
+          git config user.name "regulatory-bot"
+          git config user.email "bot@alegra.com"
+          git add snapshots/ logs/ reports/
+          git diff --staged --quiet || git commit -m "demo: simulate '${{ github.event.inputs.norm_to_exclude }}' as new norm — $(date -u +%Y-%m-%dT%H:%M:%SZ) [skip ci]"
+          git push

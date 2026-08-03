@@ -1,0 +1,6 @@
+{"run_id":"216e9293-eb31-4a7c-9327-0eefc65572c9","timestamp":"2026-08-03T03:22:09.837526Z","source_id":"normograma","stage":"monitor","status":"ok","detail":"HTTP 200 — 12842 chars"}
+{"run_id":"216e9293-eb31-4a7c-9327-0eefc65572c9","timestamp":"2026-08-03T03:22:09.870804Z","source_id":"normograma","stage":"snapshot","status":"ok","detail":"hash=sha256:d92b20ce4ac6299d95b norms=17"}
+{"run_id":"216e9293-eb31-4a7c-9327-0eefc65572c9","timestamp":"2026-08-03T03:22:09.871056Z","source_id":"normograma","stage":"compare","status":"ok","detail":"hash_changed=True diffs=1 suspect=False"}
+{"run_id":"216e9293-eb31-4a7c-9327-0eefc65572c9","timestamp":"2026-08-03T03:22:09.871258Z","source_id":"normograma","stage":"classify","status":"ok","detail":"1 changes classified"}
+{"run_id":"216e9293-eb31-4a7c-9327-0eefc65572c9","timestamp":"2026-08-03T03:22:13.094536Z","source_id":"normograma","stage":"interpret","status":"ok","detail":"1 changes interpreted"}
+{"run_id":"216e9293-eb31-4a7c-9327-0eefc65572c9","timestamp":"2026-08-03T03:22:13.133729Z","source_id":"normograma","stage":"report","status":"ok","detail":"Saved: reports/reporte_dian_2026-08-03_216e9293.docx (1 changes)"}

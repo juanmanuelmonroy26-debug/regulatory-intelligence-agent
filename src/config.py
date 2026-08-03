@@ -14,7 +14,7 @@ class Config(BaseModel):
     reports_dir: Path = Path("reports")
     monitor_timeout_seconds: int = 30
     monitor_max_retries: int = 3
-    groq_model: str = "openai/gpt-oss-20b"
+    groq_model: str = "llama-3.3-70b-versatile"
     max_diffs_before_suspect: int = 50
 
     @classmethod
@@ -25,5 +25,5 @@ class Config(BaseModel):
             snapshots_dir=Path(os.getenv("SNAPSHOTS_DIR", "snapshots")),
             logs_dir=Path(os.getenv("LOGS_DIR", "logs")),
             reports_dir=Path(os.getenv("REPORTS_DIR", "reports")),
-            groq_model=os.getenv("GROQ_MODEL", "openai/gpt-oss-20b"),
+            groq_model=os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"),
         )
