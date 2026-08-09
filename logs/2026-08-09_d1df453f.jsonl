@@ -1,0 +1,5 @@
+{"run_id":"d1df453f-4adc-4411-9838-ba0af87ac94b","timestamp":"2026-08-09T14:07:27.355300Z","source_id":"normograma","stage":"monitor","status":"ok","detail":"HTTP 200 — 12842 chars"}
+{"run_id":"d1df453f-4adc-4411-9838-ba0af87ac94b","timestamp":"2026-08-09T14:07:27.414961Z","source_id":"normograma","stage":"snapshot","status":"ok","detail":"hash=sha256:d92b20ce4ac6299d95b norms=17"}
+{"run_id":"d1df453f-4adc-4411-9838-ba0af87ac94b","timestamp":"2026-08-09T14:07:27.415156Z","source_id":"normograma","stage":"compare","status":"ok","detail":"hash_changed=False diffs=0 suspect=False"}
+{"run_id":"d1df453f-4adc-4411-9838-ba0af87ac94b","timestamp":"2026-08-09T14:07:27.415282Z","source_id":"normograma","stage":"pipeline","status":"skipped","detail":"No changes detected"}
+{"run_id":"d1df453f-4adc-4411-9838-ba0af87ac94b","timestamp":"2026-08-09T14:07:27.439109Z","source_id":"normograma","stage":"report","status":"ok","detail":"Saved: reports/reporte_dian_2026-08-09_d1df453f.docx (0 changes)"}
