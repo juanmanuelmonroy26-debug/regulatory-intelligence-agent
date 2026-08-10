@@ -1,0 +1,5 @@
+{"run_id":"ac52d26c-9c8c-408e-9270-dbb54d939a2b","timestamp":"2026-08-10T15:32:24.845030Z","source_id":"normograma","stage":"monitor","status":"ok","detail":"HTTP 200 — 12842 chars"}
+{"run_id":"ac52d26c-9c8c-408e-9270-dbb54d939a2b","timestamp":"2026-08-10T15:32:24.903110Z","source_id":"normograma","stage":"snapshot","status":"ok","detail":"hash=sha256:d92b20ce4ac6299d95b norms=17"}
+{"run_id":"ac52d26c-9c8c-408e-9270-dbb54d939a2b","timestamp":"2026-08-10T15:32:24.903309Z","source_id":"normograma","stage":"compare","status":"ok","detail":"hash_changed=False diffs=0 suspect=False"}
+{"run_id":"ac52d26c-9c8c-408e-9270-dbb54d939a2b","timestamp":"2026-08-10T15:32:24.903411Z","source_id":"normograma","stage":"pipeline","status":"skipped","detail":"No changes detected"}
+{"run_id":"ac52d26c-9c8c-408e-9270-dbb54d939a2b","timestamp":"2026-08-10T15:32:24.927559Z","source_id":"normograma","stage":"report","status":"ok","detail":"Saved: reports/reporte_dian_2026-08-10_ac52d26c.docx (0 changes)"}
