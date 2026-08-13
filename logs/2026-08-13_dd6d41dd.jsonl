@@ -1,0 +1,6 @@
+{"run_id":"dd6d41dd-df4b-466a-85ee-10d0745e638e","timestamp":"2026-08-13T15:32:31.516583Z","source_id":"normograma","stage":"monitor","status":"ok","detail":"HTTP 200 — 13589 chars"}
+{"run_id":"dd6d41dd-df4b-466a-85ee-10d0745e638e","timestamp":"2026-08-13T15:32:31.579338Z","source_id":"normograma","stage":"snapshot","status":"ok","detail":"hash=sha256:cd83a20fc4bd98ad8bf norms=18"}
+{"run_id":"dd6d41dd-df4b-466a-85ee-10d0745e638e","timestamp":"2026-08-13T15:32:31.579615Z","source_id":"normograma","stage":"compare","status":"ok","detail":"hash_changed=True diffs=1 suspect=False"}
+{"run_id":"dd6d41dd-df4b-466a-85ee-10d0745e638e","timestamp":"2026-08-13T15:32:31.579843Z","source_id":"normograma","stage":"classify","status":"ok","detail":"1 changes classified"}
+{"run_id":"dd6d41dd-df4b-466a-85ee-10d0745e638e","timestamp":"2026-08-13T15:32:34.565504Z","source_id":"normograma","stage":"interpret","status":"ok","detail":"1 changes interpreted"}
+{"run_id":"dd6d41dd-df4b-466a-85ee-10d0745e638e","timestamp":"2026-08-13T15:32:34.599485Z","source_id":"normograma","stage":"report","status":"ok","detail":"Saved: reports/reporte_dian_2026-08-13_dd6d41dd.docx (1 changes)"}
