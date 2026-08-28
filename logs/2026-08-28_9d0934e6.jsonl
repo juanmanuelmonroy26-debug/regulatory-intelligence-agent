@@ -1,0 +1,5 @@
+{"run_id":"9d0934e6-8e30-46b5-bb96-2245f9190cdf","timestamp":"2026-08-28T21:50:03.208796Z","source_id":"normograma","stage":"monitor","status":"ok","detail":"HTTP 200 — 13589 chars"}
+{"run_id":"9d0934e6-8e30-46b5-bb96-2245f9190cdf","timestamp":"2026-08-28T21:50:03.271995Z","source_id":"normograma","stage":"snapshot","status":"ok","detail":"hash=sha256:cd83a20fc4bd98ad8bf norms=18"}
+{"run_id":"9d0934e6-8e30-46b5-bb96-2245f9190cdf","timestamp":"2026-08-28T21:50:03.272189Z","source_id":"normograma","stage":"compare","status":"ok","detail":"hash_changed=False diffs=0 suspect=False"}
+{"run_id":"9d0934e6-8e30-46b5-bb96-2245f9190cdf","timestamp":"2026-08-28T21:50:03.272317Z","source_id":"normograma","stage":"pipeline","status":"skipped","detail":"No changes detected"}
+{"run_id":"9d0934e6-8e30-46b5-bb96-2245f9190cdf","timestamp":"2026-08-28T21:50:03.297431Z","source_id":"normograma","stage":"report","status":"ok","detail":"Saved: reports/reporte_dian_2026-08-28_9d0934e6.docx (0 changes)"}
