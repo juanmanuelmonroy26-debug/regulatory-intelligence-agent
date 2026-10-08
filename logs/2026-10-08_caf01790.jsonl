@@ -1,0 +1,5 @@
+{"run_id":"caf01790-5696-40b5-9414-e2c239c539b5","timestamp":"2026-10-08T18:26:11.165233Z","source_id":"normograma","stage":"monitor","status":"ok","detail":"HTTP 200 — 13589 chars"}
+{"run_id":"caf01790-5696-40b5-9414-e2c239c539b5","timestamp":"2026-10-08T18:26:11.229072Z","source_id":"normograma","stage":"snapshot","status":"ok","detail":"hash=sha256:cd83a20fc4bd98ad8bf norms=18"}
+{"run_id":"caf01790-5696-40b5-9414-e2c239c539b5","timestamp":"2026-10-08T18:26:11.229285Z","source_id":"normograma","stage":"compare","status":"ok","detail":"hash_changed=False diffs=0 suspect=False"}
+{"run_id":"caf01790-5696-40b5-9414-e2c239c539b5","timestamp":"2026-10-08T18:26:11.229386Z","source_id":"normograma","stage":"pipeline","status":"skipped","detail":"No changes detected"}
+{"run_id":"caf01790-5696-40b5-9414-e2c239c539b5","timestamp":"2026-10-08T18:26:11.253501Z","source_id":"normograma","stage":"report","status":"ok","detail":"Saved: reports/reporte_dian_2026-10-08_caf01790.docx (0 changes)"}
