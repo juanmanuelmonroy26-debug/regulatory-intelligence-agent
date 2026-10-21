@@ -1,0 +1,5 @@
+{"run_id":"9c7c574c-0a2f-4961-ad10-c75b71c96a69","timestamp":"2026-10-21T16:37:58.900741Z","source_id":"normograma","stage":"monitor","status":"ok","detail":"HTTP 200 — 13589 chars"}
+{"run_id":"9c7c574c-0a2f-4961-ad10-c75b71c96a69","timestamp":"2026-10-21T16:37:58.944697Z","source_id":"normograma","stage":"snapshot","status":"ok","detail":"hash=sha256:cd83a20fc4bd98ad8bf norms=18"}
+{"run_id":"9c7c574c-0a2f-4961-ad10-c75b71c96a69","timestamp":"2026-10-21T16:37:58.944813Z","source_id":"normograma","stage":"compare","status":"ok","detail":"hash_changed=False diffs=0 suspect=False"}
+{"run_id":"9c7c574c-0a2f-4961-ad10-c75b71c96a69","timestamp":"2026-10-21T16:37:58.944881Z","source_id":"normograma","stage":"pipeline","status":"skipped","detail":"No changes detected"}
+{"run_id":"9c7c574c-0a2f-4961-ad10-c75b71c96a69","timestamp":"2026-10-21T16:37:58.959069Z","source_id":"normograma","stage":"report","status":"ok","detail":"Saved: reports/reporte_dian_2026-10-21_9c7c574c.docx (0 changes)"}
