@@ -1,0 +1,5 @@
+{"run_id":"262f4225-22db-4181-a0e8-5e4c1d8ffba1","timestamp":"2026-11-21T18:42:23.153450Z","source_id":"normograma","stage":"monitor","status":"ok","detail":"HTTP 200 — 14070 chars"}
+{"run_id":"262f4225-22db-4181-a0e8-5e4c1d8ffba1","timestamp":"2026-11-21T18:42:23.217217Z","source_id":"normograma","stage":"snapshot","status":"ok","detail":"hash=sha256:77cfa7f1eebcbd724ad norms=19"}
+{"run_id":"262f4225-22db-4181-a0e8-5e4c1d8ffba1","timestamp":"2026-11-21T18:42:23.217425Z","source_id":"normograma","stage":"compare","status":"ok","detail":"hash_changed=False diffs=0 suspect=False"}
+{"run_id":"262f4225-22db-4181-a0e8-5e4c1d8ffba1","timestamp":"2026-11-21T18:42:23.217534Z","source_id":"normograma","stage":"pipeline","status":"skipped","detail":"No changes detected"}
+{"run_id":"262f4225-22db-4181-a0e8-5e4c1d8ffba1","timestamp":"2026-11-21T18:42:23.242160Z","source_id":"normograma","stage":"report","status":"ok","detail":"Saved: reports/reporte_dian_2026-11-21_262f4225.docx (0 changes)"}
